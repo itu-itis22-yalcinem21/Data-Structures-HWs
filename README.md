@@ -18,12 +18,14 @@ Each operation is performed on a given CSV dataset according to instructions fro
 
 ## 📁 Folder Structure
 
-- `bin/` – Compiled executables (if any)
-- `data/` – Input datasets and operation files (e.g., `employees.csv`, `operations.txt`)
-- `include/` – Header files (if separated)
-- `lib/` – (Optional) Additional helper libraries
-- `src/` – C++ source files (e.g., `array_solution.cpp`, `binary_tree.cpp`, etc.)
-- `tests/` – Sample test cases or input/output validation files
-- `Makefile` – For compiling and running the project
-- `LICENSE` – License information
-- `README.md` – This documentation file
+- `array_solution.cpp` – Array-based implementation (from HW1)
+- `binary_tree.cpp` – Binary Search Tree solution
+- `file_solution.cpp` – File I/O-based implementation (from HW1)
+- `linked_list_solution.cpp` – Linked list implementation
+- `list_solution.cpp` – STL list/map-based implementation
+- `vector_solution.cpp` – Hybrid approach using vector of BSTs
+- `hw1.csv` – Sample dataset (CSV format)
+- `operations.txt` – List of operations to be executed on the data
+- `BLG_223E_HW1.pdf` – Homework 1 description
+- `README.md` – Project documentation (this file)
+
